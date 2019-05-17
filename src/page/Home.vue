@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <Header></Header>
-        <div class="test">Hello {{name}}</div>
+    <div>主页
     </div>
 </template>
 
