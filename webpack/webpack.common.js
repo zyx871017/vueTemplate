@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const path = require('path');
@@ -32,7 +31,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|jpg|gif)$/i,
+                test: /\.(png|jpg|gif|svg)$/i,
                 use: [
                     {
                         loader: 'url-loader',
@@ -41,10 +40,6 @@ module.exports = {
                         }
                     }
                 ]
-            },
-            {
-                test: /\.svg$/i,
-                use: ['@svgr/webpack', 'url-loader']
             }
         ]
     },

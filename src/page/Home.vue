@@ -1,5 +1,6 @@
 <template>
-    <div class="page-content">主页
+    <div class="page-content">
+        <pre>var a = 'ceshi'</pre>
     </div>
 </template>
 
@@ -15,7 +16,7 @@
         }
     }
 </script>
-<style scoped>
+<style>
     .page-content {
         width: 1260px;
         margin: 0 auto;
