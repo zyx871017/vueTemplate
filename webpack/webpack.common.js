@@ -68,7 +68,8 @@ module.exports = {
         alias: {
             component: path.resolve(__dirname, './../src/component/'),
             page: path.resolve(__dirname, './../src/page/'),
-            static: path.resolve(__dirname, './../src/static')
+            static: path.resolve(__dirname, './../src/static'),
+            config: path.resolve(__dirname, './../src/config')
         }
     }
 };

@@ -1,5 +1,5 @@
 <template>
-    <div>主页
+    <div class="page-content">主页
     </div>
 </template>
 
@@ -16,7 +16,8 @@
     }
 </script>
 <style scoped>
-    .test {
-        color: red;
+    .page-content {
+        width: 1260px;
+        margin: 0 auto;
     }
 </style>

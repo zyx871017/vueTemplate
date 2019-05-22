@@ -13,15 +13,13 @@
 
 <script>
     import zyx_logo from 'static/img/zyx_logo.jpg';
+    import config from 'config/config.js';
 
     export default {
         data() {
             return {
                 zyx_logo,
-                nav: [
-                    {path: '/home', text: '主页'},
-                    {path: '/food', text: '美食'}
-                ]
+                nav: config.routes
             };
         }
     }
